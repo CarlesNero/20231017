@@ -69,6 +69,7 @@ nav img{
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    border-radius: 1rem;
 }
 
 #hero img{
@@ -85,6 +86,7 @@ nav img{
     min-height: 10rem;
     overflow: hidden;
     margin-bottom: 2rem;
+    border-radius: 1rem;
 }
 
 .duckdiv{
@@ -95,8 +97,28 @@ nav img{
     aspect-ratio: 1/1;
 }
 
-@media (min-width: 600px){
+footer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0 ;
+}
+
+footer img{
+    width: 2rem;
+}
+@media (min-width: 800px){
     #hero img{
         margin-top: 13rem;
+    }
+}
+
+@media (max-width: 600px){
+    .imagec{
+        width: 115px;
+        aspect-ratio: 1/1;
+        border-radius: 5px;
+        margin-bottom: -30px ;
     }
 }
